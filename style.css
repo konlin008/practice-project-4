@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 90px;
+  padding-top: 150px;
+  gap: 70px;
+}
+
+.left {
+  height: 100%;
+  width: 48%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left h1 {
+  font-size: 8.5vw;
+  font-weight: 500;
+  line-height: 8vw;
+}
+
+.left-bottom {
+  height: 40%;
+}
+
+.color {
+  border: 2px solid black;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  padding: 8px 10px;
+}
+
+.color h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.color1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #536b2e;
+  margin: 3px;
+}
+
+.color2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #35577e;
+}
+
+.details {
+  padding: 50px 0;
+}
+
+.details h3 {
+  font-size: 25px;
+}
+
+.details p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.right {
+  height: 100%;
+  width: 35%;
+
+  position: relative;
+  background-image: url(https://i.pinimg.com/736x/da/24/1a/da241ab6996f41f0941f00780faf1eaa.jpg);
+  background-size: cover;
+  background-position: 0 30%;
+}
+
+.right-top {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.right-top h4 {
+  font-size: 30px;
+}
+
+.right-top h5 {
+  font-size: 20px;
+}
+
+.right-top h5 i {
+  color: gold;
+}
+
+.bag {
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  background-color: #110d24;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 25%;
+  right: -15%;
+}
+
+.bag h4 {
+  font-size: 20px;
+}
+.rotated{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 500;
+  left: -10%;
+  bottom: 3%;
+  transform-origin: 0 0;
+  rotate: -90deg;
+}
