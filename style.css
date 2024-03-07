@@ -88,7 +88,6 @@ body {
 .right {
   height: 100%;
   width: 35%;
-
   position: relative;
   background-image: url(https://i.pinimg.com/736x/da/24/1a/da241ab6996f41f0941f00780faf1eaa.jpg);
   background-size: cover;
@@ -133,7 +132,8 @@ body {
 .bag h4 {
   font-size: 20px;
 }
-.rotated{
+
+.rotated {
   position: absolute;
   font-size: 30px;
   font-weight: 500;
@@ -141,4 +141,121 @@ body {
   bottom: 3%;
   transform-origin: 0 0;
   rotate: -90deg;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    /* padding-top: 0px; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left {
+    height: 50%;
+    width: 100%;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left h1 {
+    font-size: 20.5vw;
+    font-weight: 500;
+    line-height: 20vw;
+  }
+
+  .left-bottom {
+    padding: 10px 0;
+    height: 50%;
+  }
+
+  .color {
+    border: 1px solid black;
+  }
+
+  .color h5 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 11px;
+  }
+
+  .color1 {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: #536b2e;
+    margin: 3px;
+  }
+
+  .color2 {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: #35577e;
+  }
+
+  .details {
+    height: fit-content;
+    padding: 17px 0;
+  }
+
+  .details h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .details p {
+    margin-top: 0px;
+    padding: 10px 0;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  .right {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .right-top h4 {
+    font-size: 5vw;
+  }
+
+  .right-top h5 {
+    font-size: 3.5vw;
+  }
+
+  .bag {
+    position: absolute;
+    height: 25vw;
+    width: 25vw;
+    background-color: #110d24;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -13%;
+    right: -13%;
+  }
+
+  .bag h4 {
+    font-size: 4vw;
+  }
+
+  .rotated {
+    position: absolute;
+    font-size: 6vw;
+    font-weight: 600;
+    left: 0%;
+    top: -10%;
+    rotate: 0deg;
+  }
 }
